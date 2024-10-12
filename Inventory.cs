@@ -16,7 +16,7 @@ namespace ECommerceSystem
         public void RemoveItem(string item)
         {
             items.Remove(item);
-            Console.WriteLine($"Removed item from inventory: {item}");
+            Console.WriteLine($"Removed item from inventory: {item}");  // Feature in feature-inventory branch
         }
 
         public void ShowInventory()
